@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "73637318250",
+    "project_id": "software-engineering-cafeb",
+    "storage_bucket": "software-engineering-cafeb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73637318250:android:b66a76f5910662a34ac413",
+        "android_client_info": {
+          "package_name": "com.example.practice_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73637318250-veensc2ttqeve1t48ia0nrua7m1p66be.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOjR_KLfuvzLHi6WvuEpQgKNxrcjIBbac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73637318250-veensc2ttqeve1t48ia0nrua7m1p66be.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
