@@ -41,16 +41,6 @@ public class MainhomeActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-        ImageButton ib_6 = (ImageButton) findViewById(R.id.ib_6);
-        ib_6.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Board_1.class);
-                startActivity(intent);
-            }
-        });
-
         //URL 긁어와서 이미지버튼에 넣어주기
         ib_4 =(ImageButton)findViewById(R.id.ib_4);
 

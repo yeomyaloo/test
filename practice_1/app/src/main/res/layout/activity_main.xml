@@ -24,13 +24,13 @@
         android:layout_marginRight="89dp"
         android:text="Strangers"
         android:textSize="50sp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/et_email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/et_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="91dp"
@@ -40,9 +40,9 @@
         android:layout_marginRight="91dp"
         android:layout_marginBottom="9dp"
         android:ems="10"
-        android:hint="아이디를 입력해주세요."
+        android:hint="이메일을 입력해주세요."
         android:inputType="textEmailAddress"
-        app:layout_constraintBottom_toTopOf="@+id/editTextNumberPassword"
+        app:layout_constraintBottom_toTopOf="@+id/et_psw"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewStranger" />
@@ -86,7 +86,7 @@
         android:gravity="center"
         android:text="비밀번호 찾기"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/sign_up"
+        app:layout_constraintEnd_toStartOf="@+id/tv_sign_up"
         app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/line19" />
 
@@ -118,7 +118,7 @@
         app:layout_constraintBottom_toTopOf="@+id/kakao_login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumberPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/et_psw" />
 
     <Button
         android:id="@+id/naver_login"
@@ -136,7 +136,7 @@
         app:layout_constraintTop_toBottomOf="@+id/logbtn" />
 
     <TextView
-        android:id="@+id/sign_up"
+        android:id="@+id/tv_sign_up"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -151,7 +151,7 @@
         app:layout_constraintTop_toBottomOf="@+id/line19" />
 
     <EditText
-        android:id="@+id/editTextNumberPassword"
+        android:id="@+id/et_psw"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="91dp"
@@ -161,12 +161,12 @@
         android:layout_marginBottom="19dp"
         android:ems="10"
         android:hint="비밀번호를 입력해주세요."
-        android:inputType="numberPassword"
+        android:inputType="textPassword"
         app:layout_constraintBottom_toTopOf="@+id/logbtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+        app:layout_constraintTop_toBottomOf="@+id/et_email" />
 
     <TextView
         android:id="@+id/un_sign_in"

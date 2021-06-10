@@ -14,22 +14,11 @@ public class Reserve_1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reserve1);
 
-        Button prebtn, solid_button2;
-        prebtn = (Button) findViewById(R.id.prebtn);
-        solid_button2 = (Button) findViewById(R.id.solid_button2);
-
+        Button prebtn = (Button) findViewById(R.id.prebtn);
         prebtn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), MainhomeActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        solid_button2.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Reserve_2.class);
                 startActivity(intent);
             }
         });

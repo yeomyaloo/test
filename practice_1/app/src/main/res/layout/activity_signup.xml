@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/et_email"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="91dp"
@@ -32,7 +32,7 @@
         android:layout_marginEnd="91dp"
         android:layout_marginRight="91dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="textEmailAddress"
         android:text=""
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,7 +41,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textViewStranger" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/et_psw_check"
         android:layout_width="0dp"
         android:layout_height="45dp"
         android:layout_marginStart="91dp"
@@ -50,15 +50,15 @@
         android:layout_marginEnd="91dp"
         android:layout_marginRight="91dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         android:text=""
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumberPassword3" />
+        app:layout_constraintTop_toBottomOf="@+id/et_psw" />
 
     <EditText
-        android:id="@+id/editTextNumberPassword3"
+        android:id="@+id/et_psw"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="91dp"
@@ -68,12 +68,12 @@
         android:layout_marginRight="91dp"
         android:layout_marginBottom="49dp"
         android:ems="10"
-        android:inputType="numberPassword"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName3"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/et_psw_check"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/et_email" />
 
     <TextView
         android:id="@+id/textView6"
@@ -95,7 +95,7 @@
         android:layout_marginTop="25dp"
         android:text="비밀번호"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/et_email" />
 
     <TextView
         android:id="@+id/textView8"
@@ -106,10 +106,10 @@
         android:layout_marginTop="25dp"
         android:text="비밀번호 재확인"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumberPassword3" />
+        app:layout_constraintTop_toBottomOf="@+id/et_psw" />
 
     <Button
-        android:id="@+id/sign_up"
+        android:id="@+id/tv_sign_up"
         android:layout_width="229dp"
         android:layout_height="57dp"
         android:layout_marginStart="91dp"
@@ -122,10 +122,9 @@
         app:backgroundTint="#2196F3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.833"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton"
-        app:layout_constraintVertical_bias="0.644" />
+        app:layout_constraintVertical_bias="0.671" />
 
     <RadioButton
         android:id="@+id/radioButton"
@@ -140,7 +139,7 @@
         app:layout_constraintEnd_toStartOf="@+id/radioButton2"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+        app:layout_constraintTop_toBottomOf="@+id/et_psw_check" />
 
     <RadioButton
         android:id="@+id/radioButton2"
@@ -151,7 +150,7 @@
         android:layout_marginRight="88dp"
         android:text="여성"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+        app:layout_constraintTop_toBottomOf="@+id/et_psw_check" />
 
     <View
         android:id="@+id/line19"
@@ -164,7 +163,7 @@
         android:layout_marginRight="47dp"
         android:layout_marginBottom="73dp"
         android:background="#585858"
-        app:layout_constraintBottom_toTopOf="@+id/sign_up"
+        app:layout_constraintBottom_toTopOf="@+id/tv_sign_up"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
