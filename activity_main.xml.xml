@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="0dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:text="로그인하기"
+        app:backgroundTint="#2196F3"
+
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="258dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="네이버로 로그인"
+        app:backgroundTint="#1C9A06"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="319dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="비밀번호 찾기"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="437dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="회원가입"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="437dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="아이디 찾기"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="437dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Strangers"
+        android:textSize="50sp"
+
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="이메일을 입력해주세요."
+        android:inputType="textEmailAddress"
+
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <View
+        android:id="@+id/raw"
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:background="#585858"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="418dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberPassword"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="비밀번호를 입력해주세요."
+        android:inputType="numberPassword"
+
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="카카오로 로그인"
+        app:backgroundTint="#FFEB3B"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="319dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="-7dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
